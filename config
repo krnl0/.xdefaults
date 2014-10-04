@@ -1,0 +1,42 @@
+!URxvt*transparent: true
+!URxvt*shading: 101 # 0 to 99 darkens, 101 to 200 lightens
+ 
+!URxvt.depth: 32
+!URxvt.background: rgba:1111/1111/1111/dddd
+ 
+URxvt*termName: rxvt-256color
+ 
+!URxvt*background:   #000000
+URxvt*geometry: 112x22
+URxvt*depth: 32
+URxvt*background: rgba:1111/1111/1111/ffff
+!URxvt*background:  #090909
+URxvt*foreground:   #DDDDDD
+URxvt*inheritPixmap:    true
+URxvt*fading:          60
+URxvt*tintColor:       #111111
+URxvt*shading:          10
+ 
+! fonts
+! run "fc-list" for a list of available fonts
+URxvt*font: xft:Bitstream Vera Sans Mono:style=Regular:pixelsize=13:antialias=true
+ 
+URxvt*scrollBar: False
+URxvt*scrollTtyOutput: False
+URxvt*scrollTtyKeypress: True
+URxvt*secondaryScroll: True
+URxvt*saveLines: 8000
+ 
+URxvt.perl-ext-common:  default,tabbed,fullscreen,matcher
+URxvt.keysym.F11:       perl:fullscreen:switch
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+ 
+!URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : firefox
+URxvt.matcher.button  : 1
+ 
+!URxvt*background:[80]Black
+!URxvt.depth: 32
